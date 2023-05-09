@@ -1,0 +1,15 @@
+// vamos criar um programa na linguagem GO que trabalhe com o operador % e for
+// criar um programa que tenha de 1 a 100 que os números sao divisiveis por 3
+package main
+
+import "fmt"
+
+func main() {
+	for i := 0; i <= 100; i++ {
+		if i%3 == 0 {
+			fmt.Println("Este número e multimplo por tes")
+		} else {
+			fmt.Println(i)
+		}
+	}
+}
